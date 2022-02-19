@@ -27,6 +27,7 @@ const getMapName = (name, lang = 'en') =>
 
 const isMapExist = (name) => MAPS.hasOwnProperty(name);
 
-const getEveryMap = (lang = 'en') => MAPS.map((map) => map[lang]);
+const getEveryMap = (lang = 'en') =>
+  Object.keys(MAPS).map((name) => MAPS[name][lang]);
 
 export { MAPS, getMapName, isMapExist, getEveryMap };
