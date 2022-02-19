@@ -30,6 +30,11 @@ import { AGENTS } from 'valorant-tools';
 console.log(AGENTS); //{ Clay_PC_C: { "en": "Rate" }, ...}
 ```
 
+```js
+import { getEveryAgent } from 'valorant-tools';
+console.log(getEveryAgent('en')); //["Raze", "Viper", ...]
+```
+
 #### Retrieve agents name for a language
 
 ```js
@@ -49,6 +54,11 @@ console.log(isMapValid); //true
 ```js
 import { MAPS } from 'valorant-tools';
 console.log(MAPS); //{ Triad: { "en": "Haven" }, ...}
+```
+
+```js
+import { getEveryMap } from 'valorant-tools';
+console.log(getEveryMap('en')); //["Haven", "Bind", ...]
 ```
 
 ### Supported languages

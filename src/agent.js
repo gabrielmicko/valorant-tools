@@ -60,4 +60,6 @@ const getAgentName = (name, lang = 'en') =>
 
 const isAgentExist = (name) => AGENTS.hasOwnProperty(name);
 
-export { AGENTS, getAgentName, isAgentExist };
+const getEveryAgent = (lang = 'en') => AGENTS.map((agent) => agent[lang]);
+
+export { AGENTS, getAgentName, isAgentExist, getEveryAgent };
