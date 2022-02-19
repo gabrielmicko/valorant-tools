@@ -1,4 +1,4 @@
-import { AGENTS, getMapName, isMapExist } from './agent';
+import { AGENTS, getAgentName, isAgentExist } from './agent';
 import { MAPS, getMapName, isMapExist } from './map';
 
-export { AGENTS, getMapName, isMapExist, MAPS, getMapName, isMapExist };
+export { AGENTS, getAgentName, isAgentExist, MAPS, getMapName, isMapExist };
