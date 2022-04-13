@@ -1,5 +1,5 @@
-import { AGENTS, getAgentName, isAgentExist, getEveryAgent } from './agent';
-import { MAPS, getMapName, isMapExist, getEveryMap } from './map';
+import { AGENTS, getAgentName, isAgentExist, getEveryAgent } from './agent.js';
+import { MAPS, getMapName, isMapExist, getEveryMap } from './map.js';
 
 export {
   AGENTS,
