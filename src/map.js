@@ -1,24 +1,24 @@
 const MAPS = {
-  Triad: {
-    en: 'Haven',
-  },
-  Duality: {
-    en: 'Bind',
-  },
-  Bonsai: {
-    en: 'Split',
-  },
   Ascent: {
     en: 'Ascent',
   },
-  Port: {
-    en: 'Icebox',
+  Duality: {
+    en: 'Bind',
   },
   Foxtrot: {
     en: 'Breeze',
   },
   Canyon: {
     en: 'Fracture',
+  },
+  Triad: {
+    en: 'Haven',
+  },
+  Port: {
+    en: 'Icebox',
+  },
+  Bonsai: {
+    en: 'Split',
   },
 };
 

@@ -1,57 +1,57 @@
 const AGENTS = {
-  Clay_PC_C: {
-    en: 'Raze',
-  },
-  Pandemic_PC_C: {
-    en: 'Viper',
-  },
-  Wraith_PC_C: {
-    en: 'Omen',
-  },
-  Hunter_PC_C: {
-    en: 'Sova',
-  },
-  Thorne_PC_C: {
-    en: 'Sage',
-  },
-  Phoenix_PC_C: {
-    en: 'Phoenix',
-  },
-  Wushu_PC_C: {
-    en: 'Jett',
-  },
-  Gumshoe_PC_C: {
-    en: 'Cypher',
-  },
-  Sarge_PC_C: {
-    en: 'Brimstone',
+  Rift_PC_C: {
+    en: 'Astra',
   },
   Breach_PC_C: {
     en: 'Breach',
   },
-  Vampire_PC_C: {
-    en: 'Reyna',
-  },
-  Killjoy_PC_C: {
-    en: 'Killjoy',
-  },
-  Guide_PC_C: {
-    en: 'Skye',
-  },
-  Stealth_PC_C: {
-    en: 'Yoru',
-  },
-  Rift_PC_C: {
-    en: 'Astra',
-  },
-  Grenadier_PC_C: {
-    en: 'KAY/O',
+  Sarge_PC_C: {
+    en: 'Brimstone',
   },
   Deadeye_PC_C: {
     en: 'Chamber',
   },
+  Gumshoe_PC_C: {
+    en: 'Cypher',
+  },
+  Wushu_PC_C: {
+    en: 'Jett',
+  },
+  Grenadier_PC_C: {
+    en: 'KAY/O',
+  },
+  Killjoy_PC_C: {
+    en: 'Killjoy',
+  },
   Sprinter_PC_C: {
     en: 'Neon',
+  },
+  Wraith_PC_C: {
+    en: 'Omen',
+  },
+  Phoenix_PC_C: {
+    en: 'Phoenix',
+  },
+  Clay_PC_C: {
+    en: 'Raze',
+  },
+  Vampire_PC_C: {
+    en: 'Reyna',
+  },
+  Thorne_PC_C: {
+    en: 'Sage',
+  },
+  Guide_PC_C: {
+    en: 'Skye',
+  },
+  Hunter_PC_C: {
+    en: 'Sova',
+  },
+  Pandemic_PC_C: {
+    en: 'Viper',
+  },
+  Stealth_PC_C: {
+    en: 'Yoru',
   },
 };
 
