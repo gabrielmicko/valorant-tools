@@ -14,6 +14,9 @@ const AGENTS = {
   Gumshoe_PC_C: {
     en: 'Cypher',
   },
+  BountyHunter_PC_C: {
+    en: 'Fade',
+  },
   Wushu_PC_C: {
     en: 'Jett',
   },
