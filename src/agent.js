@@ -17,6 +17,9 @@ const AGENTS = {
   BountyHunter_PC_C: {
     en: 'Fade',
   },
+  Mage_PC_C: {
+    en: 'Harbor',
+  },
   Wushu_PC_C: {
     en: 'Jett',
   },
