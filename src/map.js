@@ -17,6 +17,9 @@ const MAPS = {
   Port: {
     en: 'Icebox',
   },
+  Jam: {
+    en: 'Lotus',
+  },
   Pitt: {
     en: 'Pearl',
   },

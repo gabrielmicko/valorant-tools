@@ -17,8 +17,11 @@ const AGENTS = {
   BountyHunter_PC_C: {
     en: 'Fade',
   },
-  Mage_PC_C: {
+  AggroBot_PC_C: {
     en: 'Harbor',
+  },
+  Mage_PC_C: {
+    en: 'Gekko',
   },
   Wushu_PC_C: {
     en: 'Jett',
