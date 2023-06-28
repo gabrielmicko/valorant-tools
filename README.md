@@ -33,7 +33,7 @@ console.log(isAgentValid); //true
 
 ```js
 import { AGENTS } from 'valorant-tools';
-console.log(AGENTS); //{ Clay_PC_C: { "en": "Rate", "img": "...png" }, ...}
+console.log(AGENTS); //{ Clay_PC_C: { "en": "Rate", "img": "...png", ... }, ...}
 ```
 
 ```js
@@ -53,13 +53,13 @@ console.log(getEveryAgentWithDetails());
         role: 'Duelist',
         roleDescription: 'Duelists are...',
         abilities: [
-        {
-            key: 'C',
-            label: 'FAKEOUT',
-            img: '...png',
-            description: 'EQUIP an echo t...',
-        },
-        ...
+            {
+                key: 'C',
+                label: 'FAKEOUT',
+                img: '...png',
+                description: 'EQUIP an echo t...',
+            },
+            ...
         ],
     },
     ...
@@ -78,13 +78,13 @@ console.log(getAgentDetailsByEnglishName());
     role: 'Duelist',
     roleDescription: 'Duelists are...',
     abilities: [
-    {
-        key: 'C',
-        label: 'FAKEOUT',
-        img: '...png',
-        description: 'EQUIP an echo t...',
-    },
-    ...
+        {
+            key: 'C',
+            label: 'FAKEOUT',
+            img: '...png',
+            description: 'EQUIP an echo t...',
+        },
+        ...
     ],
 }
 */
