@@ -45,12 +45,6 @@ import AGENT_Gumshoe_PC_C_C from './Agents/Gumshoe_PC_C/C.png';
 import AGENT_Gumshoe_PC_C_X from './Agents/Gumshoe_PC_C/X.png';
 import AGENT_Gumshoe_PC_C_Icon from './Agents/Gumshoe_PC_C/icon.png';
 
-import AGENT_Wushu_PC_C_Q from './Agents/Wushu_PC_C/Q.png';
-import AGENT_Wushu_PC_C_E from './Agents/Wushu_PC_C/E.png';
-import AGENT_Wushu_PC_C_C from './Agents/Wushu_PC_C/C.png';
-import AGENT_Wushu_PC_C_X from './Agents/Wushu_PC_C/X.png';
-import AGENT_Wushu_PC_C_Icon from './Agents/Wushu_PC_C/icon.png';
-
 import AGENT_Deadeye_PC_C_Q from './Agents/Deadeye_PC_C/Q.png';
 import AGENT_Deadeye_PC_C_E from './Agents/Deadeye_PC_C/E.png';
 import AGENT_Deadeye_PC_C_C from './Agents/Deadeye_PC_C/C.png';
@@ -163,7 +157,7 @@ const AGENTS = {
   Rift_PC_C: {
     en: 'Astra',
     img: AGENT_Rift_PC_C,
-    icon: AGENT_Rift_PC_Icon,
+    icon: AGENT_Rift_PC_C_Icon,
     description:
       "Ghanaian Agent Astra harnesses the energies of the cosmos to reshape battlefields to her whim. With full command of her astral form and a talent for deep strategic foresight, she's always eons ahead of her enemy's next move.",
     role: 'Controller',
@@ -1059,17 +1053,19 @@ const getEveryAgent = (lang = 'en') =>
 const getEveryAgentWithDetails = () =>
   Object.keys(AGENTS).map((name) => AGENTS[name]);
 
-const getAgentDetailByEnglishName = (name) => {
-  const agent = Object.keys(AGENTS).find((key) => AGENTS[key].en === name);
-  if (agent != null) {
-    return agent;
+const getAgentDetailsByEnglishName = (name) => {
+  const agentName = Object.keys(AGENTS).find((key) => AGENTS[key].en === name);
+  if (agentName != null) {
+    return AGENTS[agentName];
   }
 };
 
 export {
   AGENTS,
   getAgentName,
+  getAgentImage,
   isAgentExist,
   getEveryAgent,
   getEveryAgentWithDetails,
+  getAgentDetailsByEnglishName,
 };
