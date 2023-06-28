@@ -17,6 +17,12 @@ const myAgentEnglish = getAgentName('Deadeye_PC_C', 'en');
 console.log(myAgentEnglish); //Chamber
 ```
 
+```js
+import { getAgentImage } from 'valorant-tools';
+const myAgentEnglish = getAgentImage('Deadeye_PC_C', 'en');
+console.log(myAgentEnglish); //...png
+```
+
 #### Check if agent exists
 
 ```js
@@ -27,12 +33,61 @@ console.log(isAgentValid); //true
 
 ```js
 import { AGENTS } from 'valorant-tools';
-console.log(AGENTS); //{ Clay_PC_C: { "en": "Rate" }, ...}
+console.log(AGENTS); //{ Clay_PC_C: { "en": "Rate", "img": "...png" }, ...}
 ```
 
 ```js
 import { getEveryAgent } from 'valorant-tools';
 console.log(getEveryAgent('en')); //["Raze", "Viper", ...]
+```
+
+```js
+import { getEveryAgentWithDetails } from 'valorant-tools';
+console.log(getEveryAgentWithDetails());
+/*[
+    {
+        en: 'Yoru',
+        img: '...png',
+        icon: '...png',
+        description: 'Japanese native Yoru...',
+        role: 'Duelist',
+        roleDescription: 'Duelists are...',
+        abilities: [
+        {
+            key: 'C',
+            label: 'FAKEOUT',
+            img: '...png',
+            description: 'EQUIP an echo t...',
+        },
+        ...
+        ],
+    },
+    ...
+]*/
+```
+
+```js
+import { getAgentDetailByEnglishName } from 'valorant-tools';
+console.log(getAgentDetailByEnglishName());
+/* 
+{
+    en: 'Yoru',
+    img: '...png',
+    icon: '...png',
+    description: 'Japanese native Yoru...',
+    role: 'Duelist',
+    roleDescription: 'Duelists are...',
+    abilities: [
+    {
+        key: 'C',
+        label: 'FAKEOUT',
+        img: '...png',
+        description: 'EQUIP an echo t...',
+    },
+    ...
+    ],
+}
+*/
 ```
 
 #### Retrieve agents name for a language
