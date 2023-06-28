@@ -68,7 +68,7 @@ console.log(getEveryAgentWithDetails());
 
 ```js
 import { getAgentDetailsByEnglishName } from 'valorant-tools';
-console.log(getAgentDetailsByEnglishName());
+console.log(getAgentDetailsByEnglishName('Yoru'));
 /* 
 {
     en: 'Yoru',
