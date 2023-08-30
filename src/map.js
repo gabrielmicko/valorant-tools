@@ -26,6 +26,9 @@ const MAPS = {
   Bonsai: {
     en: 'Split',
   },
+  Juliett: {
+    en: 'Sunset',
+  },
 };
 
 const getMapName = (name, lang = 'en') =>
