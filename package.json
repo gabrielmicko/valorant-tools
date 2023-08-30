@@ -1,6 +1,6 @@
 {
   "name": "valorant-tools",
-  "version": "3.0.5",
+  "version": "3.0.6",
   "description": "Various valorant related tools for overwolf apps.",
   "main": "src/index.js",
   "author": "Gabriel Micko <micsko@gmail.com>",
